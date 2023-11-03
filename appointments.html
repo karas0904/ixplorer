@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Your Appointments</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .subheading {
+            font-size: 24px;
+            font-weight: bold;
+            color: #3e82fc;
+            margin-top: 20px;
+        }
+
+        .appointment-box {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        .box {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 40%;
+            border-radius: 20px;
+        }
+
+        .box-mobile {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 20px;
+            margin-top: 20px;
+            transition: height 0.3s;
+            overflow: hidden;
+        }
+
+        .box-mobile:hover {
+            height: auto;
+        }
+
+        button {
+            background-color: #3e82fc;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .arrow {
+            font-size: 24px;
+            position: absolute;
+            top: 5px;
+            right: 20px;
+            transform: rotate(90deg);
+            transition: transform 0.3s;
+        }
+
+        .box-mobile:hover .arrow {
+            transform: rotate(0deg);
+        }
+        a{
+            text-decoration: none;
+            color: rgb(16, 178, 187);
+            text-decoration: none;
+            font-size: x-large;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            justify-content: center;
+            color: black;
+            /* font-weight: bolder; */
+
+            font-family: 'Times New Roman', Times, serif;
+        }
+      .navs{
+
+        background: #f6f2f2;
+      }
+    </style>
+</head>
+<body>
+    
+    <div class="navs">
+        <a href="index.html">VitalEase</a>
+        <a href="offers.html">Offers</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="personal.html">Updates</a>
+        <a href="appointments.html">Appointments</a>
+        <a href="basic.html">Details</a>
+        <a href="account.html">Account</a>
+        <a href="about.html">About Us</a>
+        </div>
+    <div class="container">
+        <div class="subheading">Your Appointments</div>
+        <div class="appointment-box">
+            <div class="box">
+                <h3>Days</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente suscipit corporis architecto soluta inventore voluptatibus fugiat maxime, nesciunt optio? Ipsum quaerat sint sit totam quae!</p>
+            </div>
+            <div class="box">
+                <h3>Times</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vitae soluta, esse veritatis similique quisquam aspernatur molestiae laboriosam rem nesciunt atque in, fuga, consequatur minima.
+
+                </p>
+            </div>
+        </div>
+        <div class="subheading">Services</div>
+        <div class="box-mobile">
+            <h3>Mobile Support</h3>
+            <hr>
+            <h3>Nutrition Guidance</h3>
+            <hr>
+            <h3>Speech Therapy</h3>
+        </div>
+    </div>
+</body>
+</html>

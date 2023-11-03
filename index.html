@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Homepage</title>
+
+    <style>
+        .about-us {
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+}
+.about-us-register {
+  color: var(--color-tan);
+}
+.navbar,
+.vitalease-about-us-container {
+  padding: 20px;
+  width: 1224px;
+  height: 57px;
+}
+.vitalease-about-us-container {
+  top: 0;
+  right: 0;
+  display: inline-block;
+}
+.navbar {
+  top: 63px;
+  right: 422px;
+  color: var(--color-cornflowerblue);
+  font-family: var(--font-outfit);
+}
+.cg-1-icon {
+  position: absolute;
+  top: 126px;
+  left: 44px;
+  width: 1235px;
+  height: 536px;
+  object-fit: cover;
+}
+.we-are {
+  margin: 0;
+}
+.healthier-and-more-container,
+.we-are-here-container {
+  position: absolute;
+  font-family: var(--font-rock-salt);
+  color: var(--color-white);
+}
+.we-are-here-container {
+  top: 307.07px;
+  left: 203px;
+  font-size: var(--font-size-21xl);
+  display: inline-block;
+  width: 299.14px;
+  height: 305.88px;
+  transform: rotate(-5deg);
+  transform-origin: 0 0;
+}
+.healthier-and-more-container {
+  top: 572px;
+  left: 208px;
+  font-size: var(--font-size-6xl);
+}
+.homepage-child {
+  position: absolute;
+  top: 983px;
+  left: 208px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  width: 434px;
+  height: 276px;
+}
+.know-your-health {
+  position: absolute;
+  top: 850px;
+  left: 567px;
+  font-size: var(--font-size-21xl);
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+.homepage-inner,
+.homepage-item {
+  position: absolute;
+  top: 983px;
+  left: 790px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  width: 434px;
+  height: 276px;
+}
+.homepage-inner {
+  top: 1293px;
+  left: 208px;
+  width: 1016px;
+  height: 250px;
+}
+.unlocking-wellness {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-jomhuria);
+}
+
+.why-knowing-your {
+  margin: 0;
+  font-size: var(--font-size-base);
+  font-family: var(--font-josefin-sans);
+}
+.unlocking-wellness-why-container {
+  border: 0;
+  font-size: x-small;
+  background-color: transparent;
+  font-family: var(--font-mixed);
+  position: relative;
+  top: 899px;
+  font-weight: lighter;
+  left: 244px;
+  color: var(--color-tan);
+  text-align: left;
+  display: inline-block;
+  width: 382px;
+}
+.knowing-your-health {
+  position: absolute;
+  top: 1090px;
+  left: 224px;
+  font-size: var(--font-size-base);
+  font-weight: 200;
+  display: inline-block;
+  width: 376px;
+  height: 77px;
+}
+.healthtakers-guiding-your-container {
+  position: absolute;
+  top: 1020px;
+  left: 813px;
+  color: var(--color-tan);
+  text-align: justify;
+  display: inline-block;
+  width: 352px;
+  height: 91px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-jomhuria);
+}
+.healthtakers-is-your {
+  position: absolute;
+  top: 1111.01px;
+  left: 813px;
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  display: inline-block;
+  width: 312.75px;
+  height: 69.99px;
+  transform: rotate(-0.73deg);
+  transform-origin: 0 0;
+}
+.advance-your-well-being-container {
+  position: absolute;
+  top: 1329px;
+  left: 224px;
+  text-align: justify;
+  font-size: var(--font-size-xl);
+  color: var(--color-lightskyblue);
+  font-family: var(--font-jomhuria);
+}
+.crafting-a-strategic1 {
+  position: absolute;
+  top: 1386px;
+  left: 224px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 452px;
+  height: 195px;
+}
+.st1-1-icon {
+  position: absolute;
+  top: 1345px;
+  left: 899px;
+  width: 180px;
+  height: 157px;
+  object-fit: cover;
+}
+.keep-track-with {
+  position: absolute;
+  top: 1691px;
+  left: 498px;
+  font-size: var(--font-size-21xl);
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+.image-1-icon,
+.rectangle-icon {
+  background-color: #000;
+  position: absolute;
+  top: 1822px;
+  left: 0;
+  width: 1440px;
+  height: 2037px;
+}
+.image-1-icon {
+  top: 2684.49px;
+  left: 988.49px;
+  border-radius: 150px;
+  width: 332.01px;
+  height: 341.46px;
+  object-fit: cover;
+}
+.sos,
+.support-at-your {
+  position: absolute;
+  left: 244px;
+}
+.support-at-your {
+  top: 2810px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-lightgray);
+  display: inline-block;
+  width: 712px;
+}
+.sos {
+  top: 2672px;
+  color: var(--color-white);
+}
+.image-2-icon {
+  position: absolute;
+  top: 3238.16px;
+  left: 160.16px;
+  border-radius: 170px;
+  width: 369.17px;
+  height: 369.17px;
+  object-fit: cover;
+}
+.facilitate-direct-family-careg {
+  position: absolute;
+  top: 3423px;
+  left: 720px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-lightgray);
+  display: inline-block;
+  width: 618px;
+}
+.family-caregiver-chat,
+.report-sharing,
+.stay-connected-and {
+  position: absolute;
+  top: 3272px;
+  left: 720px;
+  color: var(--color-white);
+}
+.report-sharing,
+.stay-connected-and {
+  top: 2115px;
+  left: 581px;
+}
+.stay-connected-and {
+  top: 2253px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-lightgray);
+  display: inline-block;
+  width: 778px;
+}
+.homepage-child1,
+.rectangle-div {
+  background-color: #C9C6C6;
+  position: absolute;
+  top: 4925px;
+  left: 0;
+  width: 1440px;
+  height: 555px;
+}
+.rectangle-div {
+  top: 4040px;
+  left: 347px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  width: 777px;
+  height: 120px;
+}
+.real-stories-real {
+  position: absolute;
+  top: 3942px;
+  left: 530px;
+  font-size: var(--font-size-21xl);
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+.r {
+  text-transform: capitalize;
+}
+/* .atings {
+  text-transform: lowercase;
+} */
+.lakh-people,
+.our-community,
+.ratings {
+  position: absolute;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+}
+.ratings {
+  top: 4037px;
+  left: 420px;
+  font-weight: 500;
+  color: var(--color-lightskyblue);
+  white-space: pre-wrap;
+  width: 234px;
+}
+.lakh-people,
+.our-community {
+  text-transform: lowercase;
+}
+.our-community {
+  top: 4063px;
+  left: 885px;
+  font-weight: 500;
+  color: var(--color-lightskyblue);
+  width: 421px;
+}
+.lakh-people {
+  top: 4100px;
+  left: 704.26px;
+  font-weight: 600;
+  text-align: center;
+  width: 468px;
+  transform: rotate(0.69deg);
+  transform-origin: 0 0;
+  cursor: pointer;
+}
+.image-3-icon {
+  position: absolute;
+  top: 4268px;
+  left: 95px;
+  border-radius: var(--br-301xl);
+  width: 345px;
+  height: 356px;
+  object-fit: cover;
+}
+.their-help-improved {
+  position: absolute;
+  top: 4802px;
+  left: 128px;
+  font-size: var(--font-size-base);
+  text-transform: capitalize;
+  font-weight: 300;
+  display: inline-block;
+  width: 323px;
+  height: 91px;
+}
+.span1 {
+  color: var(--color-black);
+}
+.varun {
+  position: absolute;
+  top: 4672px;
+  left: 191px;
+  font-weight: 800;
+  color: var(--color-lightsteelblue);
+}
+.image-4-icon {
+  position: absolute;
+  top: 4268px;
+  left: 551px;
+  border-radius: var(--br-301xl);
+  width: 345px;
+  height: 356px;
+  object-fit: cover;
+}
+.rishabh,
+.their-help-improved1 {
+  position: absolute;
+  display: inline-block;
+}
+.rishabh {
+  top: 4672px;
+  left: 610px;
+  color: var(--color-lightsteelblue);
+  width: 252px;
+}
+.their-help-improved1 {
+  top: 4797px;
+  left: 561px;
+  font-size: var(--font-size-base);
+  text-transform: capitalize;
+  font-weight: 300;
+  width: 322px;
+}
+.image-5-icon {
+  position: absolute;
+  top: 4268px;
+  left: 1007px;
+  border-radius: var(--br-301xl);
+  width: 345px;
+  height: 356px;
+  object-fit: cover;
+}
+.mayank {
+  top: 4672px;
+  left: 1094px;
+  color: var(--color-lightsteelblue);
+  width: 252px;
+}
+.mayank,
+.their-help-improved2,
+.vitalease {
+  position: absolute;
+  display: inline-block;
+}
+.their-help-improved2 {
+  top: 4797px;
+  left: 1027px;
+  font-size: var(--font-size-base);
+  text-transform: capitalize;
+  font-weight: 300;
+  width: 322px;
+}
+.vitalease {
+  top: 5023px;
+  left: 128px;
+  font-size: 100px;
+  font-family: var(--font-oregano);
+  width: 351px;
+}
+.line-icon {
+  position: absolute;
+  top: 5365.5px;
+  left: 66px;
+  width: 1339.05px;
+  height: 1px;
+}
+.image-6-icon {
+  top: 5387px;
+  left: 575px;
+  border-radius: var(--br-31xl);
+  width: 100px;
+  height: 93px;
+}
+.image-6-icon,
+.image-7-icon,
+.image-8-icon {
+  position: absolute;
+  object-fit: cover;
+}
+.image-7-icon {
+  top: 5383px;
+  left: 699px;
+  border-radius: 60px;
+  width: 104px;
+  height: 97px;
+}
+.image-8-icon {
+  top: 5387px;
+  left: 822px;
+  border-radius: var(--br-31xl);
+  width: 110.51px;
+  height: 93px;
+}
+.contact-28493421-48 {
+  position: absolute;
+  top: 5203px;
+  left: 131px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 275px;
+  height: 69px;
+}
+.address {
+  margin: 0;
+  font-weight: 500;
+}
+.fbhewfweh {
+  margin: 0;
+  font-weight: 300;
+}
+.address-fbhewfweh-support-container,
+.privacy-and-policy-container {
+  position: absolute;
+  top: 5053px;
+  left: 956px;
+  font-size: var(--font-size-6xl);
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 527px;
+  height: 164px;
+}
+.privacy-and-policy-container {
+  top: 5305px;
+  left: 128px;
+  font-weight: 300;
+  width: 381px;
+  height: 39px;
+}
+.image-17-icon {
+  position: absolute;
+  top: 2039px;
+  left: 84px;
+  width: 397.49px;
+  height: 397.49px;
+  object-fit: cover;
+}
+.homepage {
+  position: relative;
+  background-color: #e3e2e2;
+  width: 100%;
+  height: 5480px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-gemunu-libre);
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-gemunu-libre: "Gemunu Libre";
+  --font-oregano: Oregano;
+  --font-josefin-sans: "Josefin Sans";
+  --font-jomhuria: Jomhuria;
+  --font-mixed: Mixed;
+  --font-rock-salt: "Rock Salt";
+  --font-outfit: Outfit;
+
+  /* font sizes */
+  --font-size-6xl: 25px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-31xl: 50px;
+  --font-size-21xl: 40px;
+  --font-size-11xl: 30px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-lightsteelblue: #b0c4de;
+  --color-lightskyblue: #aed6ff;
+  --color-white: #fff;
+  --color-lightgray: #ccc;
+  --color-tan: #b8936a;
+  --color-cornflowerblue: #6eb5ff;
+
+  /* Border radiuses */
+  --br-31xl: 50px;
+  --br-301xl: 320px;
+  --br-21xl: 40px;
+}
+.custom-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(4, 4, 4, 0.3); /* Adjust the opacity (0.3 in this case) and color */
+    pointer-events: none; /* Allows interaction with elements behind the overlay */
+}
+
+
+.cg-1-icon {
+    display: block;
+
+    height: auto;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(16, 178, 187);
+        text-decoration: none;
+        font-size: x-large;
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+        justify-content: center;
+        color: black;
+        /* font-weight: bolder; */
+
+        font-family: 'Times New Roman', Times, serif;
+      }
+      .navs{
+
+        background: #9b9898;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rock Salt:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gemunu Libre:wght@300;400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mixed:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jomhuria:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oregano:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    
+    <div class="navs">
+      <a href="index.html">VitalEase</a>
+      <a href="offers.html">Offers</a>
+      <a href="login.html">Login</a>
+      <a href="register.html">Register</a>
+      <a href="personal.html">Updates</a>
+      <a href="appointments.html">Appointments</a>
+      <a href="basic.html">Details</a>
+      <a href="account.html">Account</a>
+      <a href="about.html">About Us</a>
+      </div>
+    <div class="homepage">
+      <div class="navbar">
+        <div class="vitalease-about-us-container">
+          <span>
+            <span>
+              <a href="index.html">
+                <b>VitalEase </b>
+              </a>
+              
+            </span>
+          </span>
+          <span class="about-us-register">
+            <span>
+              <span> </span>
+              <span> </span>
+            </span>
+            <span class="about-us" style="float: right;">
+              <a href="about.html">About us </a>|
+              <a href="register.html">Register</a> 
+            </span>
+          </span>
+        </div>
+      </div>
+      <div class="image-container">
+        <img class="cg-1-icon" alt="" src="cg.jpg" />
+        <div class="custom-overlay"></div>
+    </div>
+      <div class="we-are-here-container">
+        <p class="we-are">WE ARE</p>
+        <p class="we-are">HERE</p>
+        <p class="we-are">FOR YOU</p>
+      </div>
+      <div class="healthier-and-more-container">
+        <p class="we-are">healthier and more connected</p>
+        <p class="we-are">future for all</p>
+      </div>
+      <div class="homepage-child"></div>
+      <div class="know-your-health">Know your HEALTH</div>
+      <div class="homepage-item"></div>
+      <div class="homepage-inner"></div>
+      <!-- unlocking-wellness
+      unlocking-wellness-why-container -->
+      
+      <div class="unlocking-wellness-why-container">
+        <p class="we-are">Unlocking Wellness:</p>
+        <p class="unlocking-wellness">
+          Why Knowing Your Health Matters
+        </p>
+      </div>
+      <div class="healthtakers-guiding-your-container">
+        <p class="we-are">HealthTakers Wellness:</p>
+        <p class="why-knowing-your">
+          Why Knowing Your Health Matters
+        </p>
+      </div>
+      <div class="healthtakers-guiding-your-container">
+        <p class="we-are">HealthTakers Wellness:</p>
+        <p class="why-knowing-your">
+          Why Knowing Your Health Matters
+        </p>
+      </div>
+      <div class="knowing-your-health">
+        Knowing your health is the bedrock of a holistic wellness approach,
+        guiding informed choices for a fulfilling life. It empowers proactive
+        decisions, encompassing physical, mental, and emotional well-being,
+        steering a path toward a healthier, balanced lifestyle.
+      </div>
+      <div class="healthtakers-is-your">
+        HealthTakers is your personalized wellness partner, delivering tailored
+        care plans and expert guidance for every step of your journey. Our
+        platform offers diverse resources and a supportive community, empowering
+        proactive.
+      </div>
+      <div class="advance-your-well-being-container">
+        <p class="we-are">
+          <span>
+            <span>Advance Your Well-being:</span>
+            <span class="about-us-register"> </span>
+          </span>
+        </p>
+        <p class="why-knowing-your">
+          Crafting a Strategic Schedule for Personal Enhancement
+        </p>
+      </div>
+      <div class="crafting-a-strategic1">
+        Crafting a strategic schedule is pivotal in personal growth, focusing on
+        prioritizing activities that enhance overall well-being. It involves
+        allocating time for skill development, mental rejuvenation, and
+        reflection, enabling individuals to work systematically towards an
+        enriched life.
+      </div>
+      <img class="st1-1-icon" alt="" src="./public/st1-1@2x.png" />
+
+      <div class="keep-track-with">Keep track with your family</div>
+      <img class="rectangle-icon" alt="" src="./public/rectangle-6.svg" />
+
+      <img class="image-1-icon" alt="" src="sos.jpg" />
+
+      <div class="support-at-your">
+        Support at Your Fingertips. Get immediate help and resources for both
+        caregivers and family members in critical moments
+      </div>
+      <b class="sos">SOS</b>
+      <img style="margin-left: 10px ;" class="image-2-icon" alt="" src="chat.png" />
+
+      <div class="facilitate-direct-family-careg">
+        Facilitate direct family-caregiver communication: Our chat feature
+        enables seamless, real-time updates and collaboration for better care
+        coordination.
+      </div>
+      <b class="family-caregiver-chat">Family-Caregiver Chat </b>
+      <b class="report-sharing">Report Sharing </b>
+      <div class="stay-connected-and">
+        Stay connected and involved in your loved one's care by easily sharing
+        updates and information securely through our platform.
+      </div>
+      <img class="homepage-child1" alt="" src="./public/rectangle-7.svg" />
+
+      <div class="rectangle-div" data-scroll-to="rectangle"></div>
+      <div class="real-stories-real">Real Stories, Real Impact</div>
+      <div class="ratings">
+          <span class="r">RATINGS </span>
+          <p style="color: #000; position: relative; bottom: 25px; left: 25px;">★★★★★</p>
+      </div>
+      <div class="our-community">Our community</div>
+      <div class="lakh-people" id="lakhPeopleText">1 Lakh People</div>
+
+
+
+      <img class="image-3-icon" alt="" src="id.png" />
+
+      
+      <div class="their-help-improved">
+        Their help improved mobility, bringing joy and transforming life in a
+        wheelchair into a hopeful and freeing experience.
+      </div>
+      
+      <div class="varun">
+        <span>Varun</span>
+        <span class="span1"> </span>
+      </div>
+      <img class="image-4-icon" alt="" src="id.png" />
+
+      <b class="rishabh">Rishabh</b>
+      <div class="their-help-improved1">
+        Their help improved mobility, bringing joy and transforming life in a
+        wheelchair into a hopeful and freeing experience.
+      </div>
+      <img class="image-5-icon" alt="" src="id.png" />
+
+      <b class="mayank">Mayank</b>
+      <div class="their-help-improved2">
+        Their help improved mobility, bringing joy and transforming life in a
+        wheelchair into a hopeful and freeing experience.
+      </div>
+      <div class="vitalease">VitalEase</div>
+      <img class="line-icon" alt="" src="./public/line-3.svg" />
+
+      <img class="image-6-icon" alt="" src="./public/image-6@2x.png" />
+
+      <img class="image-7-icon" alt="" src="./public/image-7@2x.png" />
+
+      <img class="image-8-icon" alt="" src="./public/image-8@2x.png" />
+
+      <div class="contact-28493421-48">
+        <p class="we-are">contact</p>
+        <p class="we-are">&nbsp;</p>
+        <p class="we-are">28493421-48</p>
+      </div>
+      <div class="address-fbhewfweh-support-container">
+        <p class="address">address</p>
+        <p class="fbhewfweh">fbhewfweh</p>
+        <p class="we-are">support us</p>
+        <p class="fbhewfweh">dehf@gasjdniewjf.com</p>
+        <p class="we-are">&nbsp;</p>
+        <p class="we-are">&nbsp;</p>
+        <p class="we-are">&nbsp;</p>
+        <p class="we-are"></p>
+        <p class="we-are">&nbsp;</p>
+      </div>
+      <div class="privacy-and-policy-container">
+        <p class="we-are">Privacy and Policy copyright</p>
+      </div>
+      <img class="image-17-icon" alt="" src="report.png" />
+    </div>
+
+    <script>
+      var lakhPeopleText = document.getElementById("lakhPeopleText");
+      if (lakhPeopleText) {
+        lakhPeopleText.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='rectangle']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>

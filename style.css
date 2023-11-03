@@ -1,0 +1,823 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e3e2e2;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.div {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.text-wrapper {
+  text-align: center;
+  font-size: 18px;
+}
+
+.WE-ARE-HERE-FOR-YOU {
+  font-size: 24px;
+}
+
+.healthier-and-more {
+  font-size: 20px;
+}
+
+.text-wrapper-2 {
+  font-size: 18px;
+}
+
+.overlap-3 {
+  text-align: center;
+  padding: 20px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #e3e2e2;
+  color: #333;
+  font-size: 14px;
+  padding: 10px;
+}
+
+/* Additional Styles for Elements (Add more as needed) */
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+
+/* Add more specific styles for different elements as needed */
+
+
+
+.homepage .div {
+  background-color: #e3e2e2;
+  overflow: inherit;
+  width: 1060px;
+  height: 720px;
+  position: relative;
+}
+
+.homepage .navbar {
+  position: absolute;
+  width: 1055px;
+  height: 63px;
+  top: 63px;
+  left: 103px;
+}
+
+.homepage .vitalease-about-us {
+  position: absolute;
+  width: 1448px;
+  height: 49px;
+  top: 12px;
+  left: 1px;
+}
+
+.homepage .overlap {
+  position: absolute;
+  width: 1454px;
+  height: 738px;
+  top: 191px;
+  left: 103px;
+  background-image: url(./img/cg-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.homepage .overlap-group {
+  position: absolute;
+  width: 295px;
+  height: 79px;
+  top: 561px;
+  left: 121px;
+  background-color: #b79269;
+  border-radius: 50px;
+}
+
+.homepage .text-wrapper {
+  position: absolute;
+  top: 13px;
+  left: 85px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .overlap-2 {
+  position: absolute;
+  width: 460px;
+  height: 399px;
+  top: 101px;
+  left: 105px;
+}
+
+.homepage .WE-ARE-HERE-FOR-YOU {
+  position: absolute;
+  width: 299px;
+  top: 0;
+  left: 8px;
+  transform: rotate(-5deg);
+  font-family: "Rock Salt", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .healthier-and-more {
+  position: absolute;
+  top: 279px;
+  left: 0;
+  font-family: "Rock Salt", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .div-wrapper {
+  position: absolute;
+  width: 368px;
+  height: 79px;
+  top: 561px;
+  left: 432px;
+  background-color: #b79269;
+  border-radius: 50px;
+}
+
+.homepage .text-wrapper-2 {
+  position: absolute;
+  top: 13px;
+  left: 66px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .overlap-3 {
+  position: absolute;
+  width: 619px;
+  height: 619px;
+  top: 1115px;
+  left: 100px;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+
+.homepage .unlocking-wellness {
+  position: absolute;
+  width: 551px;
+  top: 37px;
+  left: 35px;
+  font-family: "Jomhuria", Helvetica;
+  font-weight: 400;
+  color: #b79269;
+  font-size: 90px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .span {
+  font-family: "Jomhuria", Helvetica;
+  font-weight: 400;
+  color: #b79269;
+  font-size: 90px;
+  letter-spacing: 0;
+}
+
+.homepage .text-wrapper-3 {
+  font-family: "Josefin Sans", Helvetica;
+  font-size: 40px;
+}
+
+.homepage .p {
+  position: absolute;
+  width: 508px;
+  top: 209px;
+  left: 35px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .know-your-HEALTH {
+  position: absolute;
+  top: 983px;
+  left: 553px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .overlap-4 {
+  position: absolute;
+  width: 787px;
+  height: 619px;
+  top: 1115px;
+  left: 770px;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+
+.homepage .healthtakers-guiding {
+  position: absolute;
+  width: 677px;
+  top: 48px;
+  left: 50px;
+  font-family: "Jomhuria", Helvetica;
+  font-weight: 400;
+  color: #b79269;
+  font-size: 90px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .healthtakers-is-your {
+  position: absolute;
+  width: 636px;
+  top: 209px;
+  left: 50px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .overlap-5 {
+  position: absolute;
+  width: 1452px;
+  height: 619px;
+  top: 1789px;
+  left: 94px;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+
+.homepage .advance-your-well {
+  position: absolute;
+  top: 37px;
+  left: 41px;
+  font-family: "Jomhuria", Helvetica;
+  font-weight: 400;
+  color: #b79269;
+  font-size: 90px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .text-wrapper-4 {
+  position: absolute;
+  width: 717px;
+  top: 215px;
+  left: 67px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .st {
+  position: absolute;
+  width: 352px;
+  height: 323px;
+  top: 187px;
+  left: 948px;
+  object-fit: cover;
+}
+
+.homepage .keep-track-with-your {
+  position: absolute;
+  top: 2462px;
+  left: 422px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .overlap-group-2 {
+  position: absolute;
+  width: 1662px;
+  height: 2206px;
+  top: 2594px;
+  left: -2px;
+  background-color: #000000;
+}
+
+.homepage .image {
+  width: 332px;
+  height: 341px;
+  top: 273px;
+  left: 160px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.homepage .text-wrapper-5 {
+  position: absolute;
+  width: 866px;
+  top: 395px;
+  left: 713px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .text-wrapper-6 {
+  position: absolute;
+  top: 255px;
+  left: 713px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 700;
+  color: #b79269;
+  font-size: 90px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .img {
+  width: 369px;
+  height: 369px;
+  top: 886px;
+  left: 1174px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.homepage .text-wrapper-7 {
+  position: absolute;
+  width: 899px;
+  top: 1043px;
+  left: 159px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .text-wrapper-8 {
+  position: absolute;
+  top: 904px;
+  left: 163px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 700;
+  color: #b79269;
+  font-size: 90px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .text-wrapper-9 {
+  position: absolute;
+  top: 1497px;
+  left: 713px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 700;
+  color: #b79269;
+  font-size: 90px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .stay-connected-and {
+  position: absolute;
+  width: 866px;
+  top: 1636px;
+  left: 713px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .image-2 {
+  width: 397px;
+  height: 397px;
+  top: 1466px;
+  left: 159px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.homepage .overlap-6 {
+  position: absolute;
+  width: 1660px;
+  height: 799px;
+  top: 6221px;
+  left: -2px;
+  background-color: #c8c6c6;
+}
+
+.homepage .text-wrapper-10 {
+  position: absolute;
+  width: 351px;
+  top: 206px;
+  left: 153px;
+  font-family: "Oregano", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 100px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .line {
+  position: absolute;
+  width: 1372px;
+  height: 1px;
+  top: 627px;
+  left: 148px;
+  object-fit: cover;
+}
+
+.homepage .image-3 {
+  width: 60px;
+  height: 60px;
+  top: 659px;
+  left: 623px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.homepage .image-4 {
+  width: 64px;
+  height: 64px;
+  top: 659px;
+  left: 744px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.homepage .image-5 {
+  width: 71px;
+  height: 64px;
+  top: 659px;
+  left: 869px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.homepage .contact {
+  position: absolute;
+  top: 394px;
+  left: 153px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .text-wrapper-11 {
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 50px;
+  letter-spacing: 0;
+}
+
+.homepage .text-wrapper-12 {
+  font-size: 20px;
+}
+
+.homepage .text-wrapper-13 {
+  font-size: 30px;
+}
+
+.homepage .address {
+  position: absolute;
+  width: 573px;
+  top: 137px;
+  left: 869px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .text-wrapper-14 {
+  font-weight: 500;
+}
+
+.homepage .text-wrapper-15 {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.homepage .text-wrapper-16 {
+  font-size: 50px;
+}
+
+.homepage .text-wrapper-17 {
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+}
+
+.homepage .privacy-and-policy {
+  position: absolute;
+  width: 381px;
+  top: 533px;
+  left: 153px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .real-stories-real {
+  position: absolute;
+  top: 4879px;
+  left: 448px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .overlap-7 {
+  position: absolute;
+  width: 234px;
+  height: 175px;
+  top: 5035px;
+  left: 296px;
+}
+
+.homepage .RATINGS {
+  position: absolute;
+  width: 234px;
+  top: 0;
+  left: 0;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 400;
+  color: #b79269;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .text-wrapper-18 {
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 400;
+  color: #b79269;
+  font-size: 70px;
+  letter-spacing: 0;
+}
+
+.homepage .star {
+  top: 112px;
+  left: 2px;
+  position: absolute;
+  width: 67px;
+  height: 63px;
+}
+
+.homepage .star-2 {
+  top: 112px;
+  left: 84px;
+  position: absolute;
+  width: 67px;
+  height: 63px;
+}
+
+.homepage .star-3 {
+  top: 112px;
+  left: 166px;
+  position: absolute;
+  width: 67px;
+  height: 63px;
+}
+
+.homepage .star-4 {
+  top: 5147px;
+  left: 224px;
+  position: absolute;
+  width: 67px;
+  height: 63px;
+}
+
+.homepage .star-5 {
+  top: 5147px;
+  left: 544px;
+  position: absolute;
+  width: 67px;
+  height: 63px;
+}
+
+.homepage .our-community {
+  position: absolute;
+  width: 421px;
+  top: 5035px;
+  left: 1056px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 400;
+  color: #b79269;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .element-lakh-people {
+  position: absolute;
+  width: 468px;
+  top: 5143px;
+  left: 991px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 70px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .image-6 {
+  width: 285px;
+  height: 296px;
+  top: 5361px;
+  left: 175px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.homepage .their-help-improved {
+  position: absolute;
+  width: 416px;
+  top: 5776px;
+  left: 151px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .varun {
+  position: absolute;
+  top: 5678px;
+  left: 242px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .text-wrapper-19 {
+  color: #b79269;
+}
+
+.homepage .text-wrapper-20 {
+  color: #000000;
+}
+
+.homepage .image-7 {
+  width: 285px;
+  height: 296px;
+  top: 5361px;
+  left: 685px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.homepage .text-wrapper-21 {
+  position: absolute;
+  width: 252px;
+  top: 5673px;
+  left: 718px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 700;
+  color: #b79269;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .their-help-improved-2 {
+  top: 5766px;
+  left: 645px;
+  position: absolute;
+  width: 416px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .image-8 {
+  width: 285px;
+  height: 296px;
+  top: 5361px;
+  left: 1192px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.homepage .text-wrapper-22 {
+  position: absolute;
+  width: 252px;
+  top: 5673px;
+  left: 1225px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 700;
+  color: #b79269;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .their-help-improved-3 {
+  top: 5756px;
+  left: 1192px;
+  position: absolute;
+  width: 416px;
+  font-family: "Gemunu Libre", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
